@@ -137,7 +137,7 @@ article {
 .section-two {
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .section-two .image-div {
@@ -186,15 +186,17 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
 }
 
 .section-three .texts-1 h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-three .texts-1 h2 {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section-three .texts-1 p {
@@ -218,7 +220,7 @@ article {
 .section-four {
     display: flex;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .section-four .image-div {
@@ -246,15 +248,17 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
 }
 
 .section-five .texts-1 h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-five .texts-1 h2 {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section-five .texts-1 p {
@@ -279,7 +283,7 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     text-align: center;
 }
 
@@ -289,11 +293,11 @@ article {
 
 .section-six h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-six p {
     font-size: 0.9rem;
-    padding-top: 0.5rem;
 }
 
 .section-six .menu {
@@ -301,7 +305,7 @@ article {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 .section-six .menu .image-div {
@@ -351,15 +355,17 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
 }
 
 .section-seven .texts-1 h1 {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-seven .texts-1 h2 {
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section-seven .texts-1 p {
@@ -474,7 +480,7 @@ article {
     justify-content: space-evenly;
     align-items: center;
     padding: 4rem 0;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .section-nine .contact {
@@ -558,11 +564,17 @@ footer p {
     .section-two .image-div {
         flex: 100%;
         max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .section-two .image-div p {
+        font-size: 1.2rem;
     }
 
     .section-three {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .section-three .texts-1, .section-three .image-div {
@@ -577,11 +589,13 @@ footer p {
     .section-four .image-div {
         flex: 100%;
         max-width: 100%;
+        margin-bottom: 2rem;
     }
 
     .section-five {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .section-five .texts-1, .section-five .image-div {
@@ -602,6 +616,7 @@ footer p {
     .section-seven {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .section-seven .texts-1, .section-seven .image-div {
@@ -621,17 +636,22 @@ footer p {
     .section-eight .form-sec form {
         flex-direction: column;
         padding: 0 1rem 0 0;
-        gap: 1.5rem;
+        /* gap: 1.5rem; */
+        gap: 0;
     }
 
     .section-eight .form-sec form input {
         width: 100%;
+        margin-bottom: 1.5rem;
     }
 
     .section-nine {
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
+    }
+
+    .contact {
+        margin-bottom: 2rem;
     }
 }
 
@@ -644,6 +664,7 @@ footer p {
 
     .section-eight .form-sec form input {
         width: 400px;
+        margin-bottom: 0;
     }
 }
 
@@ -661,25 +682,6 @@ footer p {
         font-size: 3rem;
     }
 
-    .section-eight .texts .texts-1 {
-        width: 200px;
-        height: 200px;
-    }
-
-    .section-eight .texts .texts-2 h1 {
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (min-width: 992px){
-    header nav ul {
-        display: flex;
-    }
-
-    header nav .fa-bars {
-        display: none;
-    }
-
     .section-two {
         flex-direction: row;
     }
@@ -687,6 +689,22 @@ footer p {
     .section-two .image-div {
         flex: 40%;
         max-width: 40%;
+        margin-bottom: 0;
+    }
+
+    .section-two .image-div p {
+        font-size: 0.9rem;
+    }
+
+    .section-three {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .section-three .texts-1, .section-three .image-div {
+        flex: 50%;
+        max-width: 50%;
     }
 
     .section-four {
@@ -696,6 +714,19 @@ footer p {
     .section-four .image-div {
         flex: 40%;
         max-width: 40%;
+        margin-bottom: 0;
+    }
+
+
+    .section-five {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .section-five .texts-1, .section-five .image-div {
+        flex: 50%;
+        max-width: 50%;
     }
 
     .section-six .menu {
@@ -708,40 +739,51 @@ footer p {
         max-width: 50%;
     }
 
-    .section-nine {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .section-three {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .section-three .texts-1, .section-three .image-div {
-        flex: 50%;
-        max-width: 50%;
-    }
-
-    .section-five {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .section-five .texts-1, .section-five .image-div {
-        flex: 50%;
-        max-width: 50%;
-    }
-
     .section-seven {
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-end;
     }
 
     .section-seven .texts-1, .section-seven .image-div {
         flex: 50%;
         max-width: 50%;
+    }
+
+    .section-eight .texts .texts-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-eight .texts .texts-2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-nine {
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* padding: 4rem 2rem; */
+    }
+
+    .contact {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 992px){
+    header nav ul {
+        display: flex;
+    }
+
+    header nav .fa-bars {
+        display: none;
+    }
+
+    .section-one .texts {
+        width: 500px;
+    }
+
+    .section-one .texts .texts-2 h1 {
+        font-size: 3.5rem;
     }
 }
