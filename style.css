@@ -45,8 +45,8 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: rgb(102, 102, 102);
-    font-size: 0.8rem;
+    color: rgb(27, 22, 22);
+    font-size: 0.9rem;
 }
 
 header nav ul li a:hover {
@@ -91,7 +91,7 @@ header nav .fa-bars {
 }
 
 .section-one .texts .texts-1 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
@@ -137,7 +137,7 @@ article {
 .section-two {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .section-two .image-div {
@@ -178,7 +178,7 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .section-three .texts-1 {
@@ -186,7 +186,7 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 .section-three .texts-1 h1 {
@@ -218,7 +218,7 @@ article {
 .section-four {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .section-four .image-div {
@@ -238,7 +238,7 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .section-five .texts-1 {
@@ -246,7 +246,7 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 .section-five .texts-1 h1 {
@@ -293,6 +293,7 @@ article {
 
 .section-six p {
     font-size: 0.9rem;
+    padding-top: 0.5rem;
 }
 
 .section-six .menu {
@@ -300,6 +301,7 @@ article {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-top: 2rem;
 }
 
 .section-six .menu .image-div {
@@ -341,7 +343,7 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .section-seven .texts-1 {
@@ -349,7 +351,7 @@ article {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 .section-seven .texts-1 h1 {
@@ -493,6 +495,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 2rem;
     border-radius: 50%;
     padding: 1rem;
@@ -618,6 +621,7 @@ footer p {
     .section-eight .form-sec form {
         flex-direction: column;
         padding: 0 1rem 0 0;
+        gap: 1.5rem;
     }
 
     .section-eight .form-sec form input {
@@ -627,6 +631,7 @@ footer p {
     .section-nine {
         flex-direction: column;
         justify-content: center;
+        gap: 2rem;
     }
 }
 
@@ -634,6 +639,7 @@ footer p {
     .section-eight .form-sec form {
         flex-direction: row;
         padding: 0;
+        gap: 1rem;
     }
 
     .section-eight .form-sec form input {
